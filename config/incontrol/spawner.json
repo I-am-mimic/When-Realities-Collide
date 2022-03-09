@@ -1,0 +1,14 @@
+[
+    {
+        "mob": "iceandfire:cockatrice",
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "persecond": 1,
+        "attempts": 1,
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        }
+    }
+]

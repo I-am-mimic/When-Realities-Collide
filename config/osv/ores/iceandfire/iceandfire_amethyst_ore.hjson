@@ -1,0 +1,27 @@
+# This name was misspelled in the original mod
+{
+  variant: {
+    original: iceandfire:amythest_ore
+  }
+  texture: {
+    original: iceandfire:block/amythest_ore
+    overlay: osv:block/iceandfire/amythest_ore
+  }
+  recipe: {
+    result: iceandfire:amythest_gem
+    xp: 0.35
+    time: 200
+    count: 1
+    group: iceandfire_amethyst_ore
+  }
+  gen: [
+    {
+      height: [ 4, 32 ]
+      count: [ 3, 8 ]
+      size: 8
+      biomes: {
+        types: SAVANNA
+      }
+    }
+  ]
+}

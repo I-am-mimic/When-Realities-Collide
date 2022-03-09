@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "osv:block/byg/pendorite_ore_shade_quark_marble"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+# A generic cave mainly used for experimentations and for me to learn how this works
+{
+  $VANILLA: All
+  enabled: true
+  #biomes: {
+  #  names: [ "otg:wrc.dark_forest", "otg:wrc.birch_forest", "otg:wrc.forest_plataeu", "otg:wrc.forest" ]
+  #}
+  height: [ 2, 200 ]
+  caverns: {
+    height: [ 5, 10 ]
+    generators: {
+      frequency: 0.2
+      threshold: -0.5
+      stretch: 0.5
+    }
+  }
+  tunnels: {
+    # Spawn rate roughly in half.
+    count: 10
+    # Most tunnels will spawn alone.
+    systemChance: 0.00050
+    noiseYReduction: false
+    resizeBranches: false
+    dPitch: {
+      factor: 0.5
+    }
+    scale: {
+      randFactor: 0
+      startVal: 4.5
+      startValRandFactor: 0
+    }
+    stretch: {
+      randFactor: 0
+      startVal: 0.6
+    }
+  }
+}

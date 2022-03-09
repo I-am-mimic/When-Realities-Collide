@@ -1,0 +1,23 @@
+{
+  variant: {
+    original: diamond_ore
+  }
+  texture: {
+    original: block/diamond_ore
+    overlay: osv:block/minecraft/diamond_ore
+  }
+  recipe: {
+    result: diamond
+    xp: 1
+    time: 200
+    count: 1
+    group: diamond_ore
+  }
+  gen: [
+    {
+      height: [ 0, 16 ]
+      size: 8
+      count: 1
+    }
+  ]
+}

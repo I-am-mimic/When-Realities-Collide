@@ -1,0 +1,26 @@
+{
+  variant: {
+    original: emerald_ore
+  }
+  texture: {
+    original: block/emerald_ore
+    overlay: osv:block/minecraft/emerald_ore
+  }
+  recipe: {
+    result: emerald
+    xp: 1
+    time: 200
+    count: 1
+    group: emerald_ore
+  }
+  gen: [
+    {
+      height: [ 0, 32 ]
+      size: 2
+      count: 3
+      biomes: {
+        types: EXTREME_HILLS
+      }
+    }
+  ]
+}

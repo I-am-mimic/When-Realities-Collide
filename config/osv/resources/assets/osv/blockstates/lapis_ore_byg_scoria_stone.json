@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "osv:block/minecraft/lapis_ore_shade_byg_scoria_stone"
+    }
+  }
+}

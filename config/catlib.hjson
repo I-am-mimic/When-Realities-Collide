@@ -1,0 +1,11 @@
+{
+  general: {
+    # Whether to enable this library's provided commands as regular commands.
+    enableGlobalLibCommands: false
+    # The minimum error level to display in the error menu.
+    # Allowed Values: WARN, ERROR, FATAL
+    errorLevel: ERROR
+    # Whether to wrap text on the error detail page. Hit W or space to toggle in game.
+    wrapText: true
+  }
+}

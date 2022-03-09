@@ -1,0 +1,22 @@
+{
+  "variants":
+  {
+    "":
+    [
+      {
+        "model": "osv:block/minecraft/iron_ore_shade_stone"
+      },
+      {
+        "model": "osv:block/minecraft/iron_ore_shade_stone_mirrored"
+      },
+      {
+        "y": 180,
+        "model": "osv:block/minecraft/iron_ore_shade_stone"
+      },
+      {
+        "y": 180,
+        "model": "osv:block/minecraft/iron_ore_shade_stone_mirrored"
+      }
+    ]
+  }
+}

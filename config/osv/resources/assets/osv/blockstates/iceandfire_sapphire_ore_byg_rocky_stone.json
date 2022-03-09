@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "osv:block/iceandfire/sapphire_ore_shade_byg_rocky_stone"
+    }
+  }
+}

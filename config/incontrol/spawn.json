@@ -1,0 +1,23 @@
+[
+    {
+        "mob":["minecraft:trader_llama","minecraft:wandering_trader"],
+        "result":"deny"
+    },
+    {
+        "biome": "otg:wrc.sunken_forest",
+        "mob": "iceandfire:cockatrice",
+        "maxheight": 33,
+        "minheight": 30,
+        "maxcount": {
+            "amount": 6,
+            "mob":"iceandfire:cockatrice",
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "iceandfire:cockatrice",
+        "result": "deny"
+    }
+    
+]
